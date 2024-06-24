@@ -1,0 +1,27 @@
+b1 : cấu hình database trong .env
+
+b2: cấu hình pusher 
+app_id = "1814731"
+key = "2c07e3669523628826c2"
+secret = "acdfd2dbf44f17bca326"
+cluster = "ap1"
+
+b2: cấu hình tài khoản user
+b3:
+ cài đặt laravel/ui
+ chạy php artisan ui bootstrap
+ chạy php artisan ui bootstrap --auth
+
+ b4:
+  chạy npm install
+  chạy npm run dev
+
+  b5: cài đặt pusher
+  composer require pusher/pusher-php-server
+  
+  b6: cài đặt pusher trên giao diện client 
+  npm install --save-dev laravel-echo pusher-js 
+
+  b7: muốn sử dụng chạy đồng thời 2 câu lệnh
+  php artisan serve ( để chạy localhost)
+  npm run dev (để chạy pusher và echo js)

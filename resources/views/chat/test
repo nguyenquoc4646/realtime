@@ -1,0 +1,9 @@
+ let userId = '{{ Auth::user()->id }}'; // Lưu giá trị thực vào biến userId
+
+                let role = e.member_id.find(element => element === userId);
+
+                if (roleGroup !== undefined) {
+                    var role_group = 'Bạn là thành viên'
+                } else {
+                    var role_group = 'Bạn là trưởng nhóm'
+                }
